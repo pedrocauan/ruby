@@ -18,3 +18,16 @@ elsif(nome == "Joao")
 else
     puts("QUe nome estranho !!")
 end
+
+# == é possivel usar  o if como flag de uma instrução ==
+
+#faça o login no site se o  usuario existir 
+usuario_existir = true
+puts "Fazer Login" if usuario_existir 
+
+# O cliente está autorizado a se cadastrar se for maior de idade
+idade = 18
+
+autorizado = true if idade >= 18
+puts "Cliente Registrado !!" if autorizado
+

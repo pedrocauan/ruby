@@ -9,6 +9,7 @@
 
 #
 
+# percorrer uma lista de nomes
 nomes = ["pedro", "maria", "clara", "joana"]
 
 i = 0
@@ -20,8 +21,8 @@ end
 
 
 
+# ler quantidade de registros em uma database
 qnt_registros = 10
-
 
 count = 1
 qnt_registros.times do 

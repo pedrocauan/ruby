@@ -2,7 +2,7 @@
 
 hash = {nome: "pedro", idade: 23}
 hash[:altura] = 1.73
-# hash.delete(:altura) # deleta a chave
+# hash.delete(:altura) # deleta a chhash ave
 
 # hash.clear #apaga toda a hash
 # puts hash.has_value?("pedro") # ve se tem um valor dentro da hash

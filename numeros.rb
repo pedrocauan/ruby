@@ -1,3 +1,5 @@
+# var.kind_of? <tipo>  vê se a variavel pertence a um tipo
+
 print "Insira um número: "
 x = gets.chomp.to_f
 

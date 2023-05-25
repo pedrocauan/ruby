@@ -11,9 +11,15 @@ class Calculadora
 end
 
 calculadora = Calculadora.new
-puts calculadora.somar(5, 5, 11, 10)
+
 res_subt = calculadora.subtracao(10, 5)
+res_div = calculadora.div(2, 1)
+res_mult = calculadora.mult(2, 2)
+
+puts calculadora.somar(5, 5, 11, 10)
 puts res_subt
+puts res_div
+puts res_mult
 
 # class Aluno
 #     def notas(*args)

@@ -5,7 +5,7 @@ require_relative "mercado.rb"
 produto = Produto.new("Monster Energy", 8.50)
 
 #Colocando o produto no mercado
-mercado = Mercado.new(produto)
+mercado = Mercado.new(produto).comprar
 
 #fazendo a compra
-mercado.comprar
+# mercado.comprar
